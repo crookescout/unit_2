@@ -1,4 +1,4 @@
-# By Scout Crooke
+# By Scout Crooke, 9/20/19, this program calculates the area of different shapes and compounded interest
 
 sphere_volume = 4 / 3 * 3.14 * (5**3)
 
@@ -11,13 +11,22 @@ total_cost = shipping + book_price
 
 print("The total wholesale cost for 60 copies is", total_cost)
 
-departure_in_minutes = (412/60)
+# calculate the area of a rectangle
+rectangle_base = 5
+rectangle_height = 9
+area = rectangle_base * rectangle_height
+print("THe area of the rectangle is", area)
 
-one_mile_in_minutes = 8.25
-three_miles_in_minutes = 7.2 * 3
+# calculate the area of a triangle
+triangle_base = 4
+triangle_height = 8
+triangle_area = triangle_base * triangle_height / 2
+print("The area of the triangle is", triangle_area)
 
-time_running = (2 * one_mile_in_minutes) + three_miles_in_minutes
-return_time = time_running + departure_in_minutes
-
-print(return_time)
-print("The he got home is", )
+# calculate compounded interest
+p = 10000
+n = 12
+r = 0.08
+t = 10
+a = p * (1 + (r / n )) ** (n * t)
+print("The final amount of compounded interest is", a)
