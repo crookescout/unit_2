@@ -24,9 +24,22 @@ triangle_area = triangle_base * triangle_height / 2
 print("The area of the triangle is", triangle_area)
 
 # calculate compounded interest
-p = 10000
-n = 12
-r = 0.08
-t = 10
+p = 10000  # principal amount
+n = 12  # how often the interest is compounded per year
+r = 0.08  # interest rate
+t = 10  # number of years
 a = p * (1 + (r / n )) ** (n * t)
 print("The final amount of compounded interest is", a)
+
+first_name = input("Hello, what is your first name?")
+last_name = input("Cool! What is your last name?")
+print(last_name, first_name)
+
+hours = float(input("Enter Hours:"))
+rate = float(input("Enter Rate:"))
+pay = hours * rate
+print("Pay:", pay)
+
+temp_C = flaot(input("what is the temperature in degrees Celcius?"))
+temp_F = (temp_C * 9 / 5) + 32
+print(temp_C, "degrees Celsius equals")
