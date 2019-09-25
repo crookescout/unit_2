@@ -28,4 +28,3 @@ total_cost = years * 12 * monthly_payment
 print("Alright. So, if you bought a", car, "you would have a monthly payment of $" + str(monthly_payment))
 print("I hope that is reasonable with your budget. That would be a total of $" + str(total_cost))
 print("Well, I better get going now. It has been nice talking with you", name + "!")
-
