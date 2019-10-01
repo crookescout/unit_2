@@ -1,4 +1,5 @@
-# By Scout Crooke, 9/24/19, unit 2 assignment option 1
+# By Scout Crooke, 9/24/19,
+# This program has a conversation with the user and calculates to cost of the user's favorite car
 
 print("Hi my name is BotBot!")
 name = input("What is your name?")
